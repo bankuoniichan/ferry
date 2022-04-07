@@ -28,6 +28,6 @@ Future<void> writeDocument(
 
   return buildStep.writeAsString(
     outputId,
-    '// GENERATED CODE - DO NOT MODIFY BY HAND\n\n' + formatted,
+    '// GENERATED CODE - DO NOT MODIFY BY HAND\nignore_for_file: type=lint\n\n' + formatted,
   );
 }
